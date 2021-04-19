@@ -1,0 +1,12 @@
+.content {
+  overflow: auto;
+  height: 600px;
+  overflow-y: scroll;
+}
+.content {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.sizeButton{
+    width: 350px;
+}

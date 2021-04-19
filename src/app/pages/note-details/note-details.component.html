@@ -1,0 +1,8 @@
+<div class="content">
+    <app-note-list (click)="noteClick(i)" *ngFor="let note of notes;index as i" 
+    [title]="note[0]" [body]="note[1]" 
+    (delete)="delete(i)"></app-note-list>    
+</div>
+<div class="mt-2">
+    <button routerLink="createnote" type="button" class="btn btn-primary sizeButton" >+ADD</button>
+</div>

@@ -1,0 +1,6 @@
+.navigationBar{
+    background: linear-gradient(to right, rgb(224, 146, 159), rgb(133, 133, 240));    
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+}

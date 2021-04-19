@@ -1,0 +1,22 @@
+.cancle{
+    background-color: green;
+    width: 21px;
+    height: 18px;
+    top: 25px;
+    position: absolute;
+    right: 15px;
+    padding-bottom:22px;
+    opacity: 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 0px 2px 15px 2px; 
+}
+.card:hover .cancle{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
