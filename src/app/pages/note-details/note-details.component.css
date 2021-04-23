@@ -1,6 +1,6 @@
 .content {
   overflow: auto;
-  height: 600px;
+  height: 450px;
   overflow-y: scroll;
 }
 .content {
@@ -8,5 +8,15 @@
     scrollbar-width: none;  /* Firefox */
 }
 .sizeButton{
-    width: 350px;
+    width: 250px;
+}
+
+@media (min-width: 350px) and (max-width: 767.98px) {
+    .sizeButton{
+      width: 290px;
+      margin-left: -33px;      
+    }
+    .content{
+      height: 390px !important;
+    }
 }
